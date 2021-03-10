@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Mukta+Vaani:wght@300&display=swap');
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5rem;
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-bottom.svg'), url('images/bg-pattern-top.svg');
+    background-position: 550px 250px, -500px 0px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 450px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.upper-container img{
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.img-container{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 70px;
+}
+.img-container img{
+    border-radius: 50%;
+    margin: -50px auto;
+    border: 10px solid #fff;
+}
+.user-content{
+    width: 350px;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    font-weight: 700;
+}
+.user{
+    margin-top: 10px;
+}
+.user span, 
+.activity-container span{
+    display: block;
+    font-weight: 200;
+}
+
+.activity-container{
+    margin-top: 60px;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-top: 2px solid hsl(0, 1%, 75%);
+}
+
+footer{
+    text-align: center;
+}
